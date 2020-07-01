@@ -1,8 +1,9 @@
 % Obtained the whole LFP. Add the all directory paths of the experiments
-ephysPaths ={'D:\Grik4_Ai40D_2\10-31-19\Grik4_Ai40D_2_Sleep_2019-10-31_17-38-34', ...
-    'D:\Grik4_Ai40D_2\10-31-19\Grik4_Ai40D_2_Sleep_2019-10-31_17-44-41'};
+ephysPaths ={'E:\PostDoct_Data\Grik4_Ai40D_2\11-7-19\Grik4_Ai40D_2_Sleep_2019-11-07_17-07-33', ...
+    'E:\PostDoct_Data\Grik4_Ai40D_2\11-7-19\Grik4_Ai40D_2_Sleep_2019-11-07_17-57-52',...
+    'E:\PostDoct_Data\Grik4_Ai40D_2\11-7-19\Grik4_Ai40D_2_Sleep_2019-11-07_18-56-28'};
 
-savePath = 'D:\Grik4_Ai40D_2\10-31-19\lfps'; % specify the saving path
+savePath = 'D:\Grik4_Ai40D_2\11-7-19\lfps'; % specify the saving path
 % Use the save path to save your data to a specific directory
 
 %% whole LFP function

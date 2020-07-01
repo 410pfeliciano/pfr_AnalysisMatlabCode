@@ -9,11 +9,11 @@
 %     -'spindle' filter between 10-16Hz (look at Siapas and Wilson, 1998)
 %     -'delta' filter between 1-4Hz
 %     -'deltaSpindle' filter between 1-16Hz
-%     -'highfreq' filter between 20-100Hz
+%     -'highfreq' filter between 100-450Hz
 % Inputs:
 % -LFP is the LFP signal
 % -lfpFilter has to be a string! choose between 'theta','lowGamma',
-% 'fastGamma' or 'ripple'
+% 'fastGamma', 'ripple', etc...
 % -Fs(Default) = 1000. Assuming that you reduced the sampling rate to 1KHz
 % 
 function filtLFP = bandFilter (LFP, lfpFilter, Fs)
